@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina_jogo/jogo-estilo.css">
+    <title>JOGO DA VELHA</title>
+    <link rel="icon" href="jogo-da-velha.png">
+</head>
+<body>
+    <div class="tabuleiro">
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+        <div class="pos"></div>
+    </div>
+
+    <div id="vitoria">
+        <p id="texto-vitoria">X venceu</p>
+        <button id="btn-vitoria">Novo Jogo</button>
+        <button id="btn-retorno">Retornar</button>
+        <button id="btn-creditos">Créditos</button>
+        
+    </div>
+
+    <div id="login-aparece">
+        <div id="titulo">
+            <h1>LOGIN</h1>
+        </div>
+    
+        <div id="login">
+    
+            <div id="inputs">
+                <input id="nome" type="text" maxlength="15" placeholder="Digite seu Nome">
+    
+                <input id="senha" type="password" maxlength="10" placeholder="Digite sua Senha">  
+    
+            </div>
+    
+            <button class="botao" id="botao-criar">Criar Conta</button>
+    
+            <button class="botao" id="botao-jogar">Jogar</button>
+    
+            
+
+            <button class="botao" id="botao-ranking">Ranking</button>
+
+            <label id="skins">Skin</label>
+            <select class="botao" id="skin">
+                <option value="1">Skin 1</option>
+                <option value="2">Skin 2</option>
+                <option value="3">Skin 3</option>
+            </select>
+            
+    
+        </div>
+    </div>
+
+    <div id="ranking">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Ranking Dos Melhores</th>
+                </tr>
+                <tr>
+                    <th>Rank</th>
+                    <th>Nome</th>
+                    <th>Número de Vitórias</th>
+                    <th>Vezes Jogadas</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela">
+            </tbody>
+            <tfoot>
+                <button class="botao" id="btn-rank-voltar">Voltar </button>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="pagina_jogo/game_manager.js"></script>
+</body>
+</html>
