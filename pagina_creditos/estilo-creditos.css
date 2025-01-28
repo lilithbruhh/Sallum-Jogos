@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #000000, #220606,#500e0e, #a00404)
+}
+
+#conteudo{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 2%;
+    text-align: justify;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: black 13px 13px 13px;
+    animation: mudando 1s ease-out infinite alternate-reverse;
+}
