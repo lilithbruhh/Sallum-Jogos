@@ -17,3 +17,33 @@ body{
     box-shadow: black 13px 13px 13px;
     animation: mudando 1s ease-out infinite alternate-reverse;
 }
+h1, p{
+    background: linear-gradient( #000000, #220606,#500e0e, #a00404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#retornar{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 4%;
+    padding: 1%;
+    box-shadow: 5px 5px 5px #8b000000;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #701919;
+}
+
+@keyframes mudando{
+    from{
+        margin-left: 25%;
+        width: 50%;
+    } 
+    to{
+        margin-left: 22%;
+        width: 55%;
+    }
+}
