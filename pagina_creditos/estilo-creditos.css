@@ -1,13 +1,10 @@
 body{
-    height: 100vh;
-    background: linear-gradient(45deg, #000000, #220606,#500e0e, #a00404)
+    background: linear-gradient(45deg, #000000, #220606,#500e0e, #a00404);
 }
 
 #conteudo{
     background-color: aliceblue;
-    box-sizing: border-box;
     width: 50%;
-    margin-left: 25%;
     margin-top: 20%;
     margin-bottom: 20%;
     padding: 2%;
@@ -29,7 +26,6 @@ h1, p{
     width: 80%;
     margin-bottom: 4%;
     padding: 1%;
-    box-shadow: 5px 5px 5px #8b000000;
     font-family: 'Source Code Pro', monospace;
     color: white;
     border-radius: 1rem;
